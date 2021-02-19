@@ -1,1 +1,1 @@
-# CS6910
+# CS6910 - Fundamentals of Deep Learning

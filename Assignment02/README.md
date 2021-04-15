@@ -6,6 +6,10 @@
 Karthik S - ME18B149
 Aravint Annamalai - EE18B125
 
+[Problem Statement](https://wandb.ai/miteshk/assignments/reports/Assignment-2--Vmlldzo0NjA1MTU)
+
+[Report Link(wandb)](https://wandb.ai/kodikarthik21/Assignment%202/reports/Assignment-2-Convolutional-Neural-Networks--Vmlldzo1NjQ0NDQ?accessToken=y98grmei3a3l8mz4mlfv008r091zssbrwvqlu693mzjz6o9yw79ogbez3t5xabz4)
+
 Part A:
   1) Train a CNN from scratch
   2) Sweep and perform hyperparameter tuning
@@ -18,9 +22,5 @@ Part B:
 
 Part C:
   1) Make a video with object detection feature using YOLOv3(pre-trained model) - [Reference Model](https://github.com/AlexeyAB/darknet)
-
-
-[Report Link(wandb)](https://wandb.ai/kodikarthik21/Assignment%202/reports/Assignment-2-Convolutional-Neural-Networks--Vmlldzo1NjQ0NDQ?accessToken=y98grmei3a3l8mz4mlfv008r091zssbrwvqlu693mzjz6o9yw79ogbez3t5xabz4)
-
 
 ## NOTE: Since there was a renaming mistake in one of the files(Part A), please check the commits of the entire folder to have a clear idea of commits and NOT check commits of just the new file. Thank you

@@ -15,6 +15,8 @@ Part A:
   2) Sweep and perform hyperparameter tuning
   3) Visualize filters in 1st layer
   4) Perform Guided Backpropagation
+      a) Selecting random neuron in the CONV5 Layer and make all other outputs zero.
+      b) Removing negative gradients during backpropagation using a GuidedRelu function.
 
 Part B:
   1) Use a pre-existing CNN model

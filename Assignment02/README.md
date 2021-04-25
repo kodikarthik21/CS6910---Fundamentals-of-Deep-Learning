@@ -12,15 +12,18 @@ Aravint Annamalai - EE18B125
 
 Part A:
   1) Train a CNN from scratch: Our model has 5 sets of Conv and MaxPooling layers followed by a dense layer and an output layer. We have also implemeted 4 types of Data Augmentations, viz. Random Flip, Random Crop, Random Rotation and Random Tranlation. Batch Normalization, Dropout and change in filter organization (doubling the no. of filters after each layer, halving the number of filters after each layer or using the same number of filters after each layer, are also being implemented, so that the models which perform the best on the validation dataset is chosen for further analysis. 
+
   2) Sweep and perform hyperparameter tuning: We have performed hyperparameter tuning with a host of hyperparameters: maximum no. of epochs(max_epoch), initial number of filters (num_filters), filter organization, which takes care of doubling, halving or having the same number of filters after each layer (filter_org), whether to implement data augmentation or not (data_augmentation), dropout to be used (dropout), whether batch normalization is to be used or not (batch_normalization) and the optimizer to be used (optimizer)
-  3) Visualize filters in 1st layer
+
+  3) Visualize filters in 1st layer 
   4) Perform Guided Backpropagation
-      a) Selecting random neuron in the CONV5 Layer and make all other outputs zero. \\
+      a) Selecting random neuron in the CONV5 Layer and make all other outputs zero.
       b) Removing negative gradients during backpropagation using a GuidedRelu function.
 
 Part B:
-  1) Use a pre-existing CNN model
-  2) Sweep and perform hyperparameter tuning
+  1) Use a pre-existing CNN model: We used 4 pre-trained models pre-trained on the ImageNet dataset, viz. InceptionV3, InceptionResNetV2, ResNet50, Xception. Since the models have different number of layers, instead of explicitly stating the number of layers to be 'frozen', we chose to 'freeze' a certain fraction of the total number of layers and evaluate the performance by fine-tuning on our dataset. We also implemented the same set of data augmentation as Part-A. Along with that, we have also implemented dropout.
+  
+  2) Sweep and perform hyperparameter tuning: Tuned based on a variety of hyperparameters: base model (base), fraction of layers to be 'frozen' (fine_tune_at_fraction), optimizer to be used (optimizer), no. of epochs (epochs), whether to use data augmentation or not (data_augmentation) and dropout (dropout).
 
 Part C:
   1) Make a video with object detection feature using YOLOv3(pre-trained model) - [Reference Model](https://github.com/AlexeyAB/darknet)

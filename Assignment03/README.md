@@ -18,4 +18,4 @@ Using the best model, the word-level test accuracy using greedy search is comput
 10 words from the test set is chosen, and their attention heatmaps and connectivity are generated. Run the cells to reproduce our results.
 
 # NOTE
-Even though the code with attention has only one contributor as shown in GitHub, contributions were there from both the team members.
+Even though the code with attention has only one contributor as shown in GitHub, contributions were there from both the team members. The clear contributions are described in detail in the report.

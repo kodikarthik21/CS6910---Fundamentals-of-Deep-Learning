@@ -6,7 +6,7 @@
 
 Karthik S - ME18B149 Aravint Annamalai - EE18B125
 
-[Report Link(wandb)](https://wandb.ai/kodikarthik21/Assignment-4/reports/Assignment-4--Vmlldzo3MTE4NzU)4
+[Report Link(wandb)](https://wandb.ai/kodikarthik21/Assignment-4/reports/Assignment-4--Vmlldzo3MTE4NzU)
 
 The following tasks were performeed as a part of this assignment:
 1) Single hidden layer RBM was trained using Gibbs Sampling method and Contrastive divergence method.

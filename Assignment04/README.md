@@ -1,8 +1,8 @@
-#Assignment 4 - Restricted Boltzmann Machine Training 
+# Assignment 4 - Restricted Boltzmann Machine Training 
 
-###This folder contains the code for Assignment 4 of the course CS6910 - Fundamentals of DL.
+### This folder contains the code for Assignment 4 of the course CS6910 - Fundamentals of DL.
 
-###Group members:
+### Group members:
 
 Karthik S - ME18B149 Aravint Annamalai - EE18B125
 

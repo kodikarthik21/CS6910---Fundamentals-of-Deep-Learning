@@ -19,4 +19,4 @@ The following tasks were performeed as a part of this assignment:
 Instructions for running are given in the respective Colab files, which can be accessed using the above links. 
 
 ### Note for t-SNE plot
-As mentioned in the Contrastive Divergence notebook, the plot will be stored as a file called '''tsne_2d.png'''.
+As mentioned in the Contrastive Divergence notebook, the plot will be stored as a file called *tsne_2d.png*.
